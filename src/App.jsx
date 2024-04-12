@@ -24,7 +24,7 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-slate-400">
+    <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<CoinList coins={coin} />} />

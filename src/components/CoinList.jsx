@@ -6,7 +6,7 @@ import CoinPage from './CoinPage';
 
 const CoinList = ({coins}) => {
     return (
-        <div className='lg:max-w-[1280px] max-w-[85%] w-full mx-auto mt-8'>
+        <div className='lg:max-w-[1280px] max-w-[90%] w-full mx-auto mt-8'>
             <div>
                 <div className='text-gray-200 flex items-center justify-between shadow-lg rounded-lg mx-4 my-2 font-bold px-6 py-4 bg-slate-800'>
                     <p>#</p>
