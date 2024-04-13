@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    .root{
-        background-color: darkgray;
-    }
+.root{
+    background-color: darkgray;
 }
+
