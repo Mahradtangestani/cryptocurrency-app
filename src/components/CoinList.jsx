@@ -5,6 +5,8 @@ import CoinPage from './CoinPage';
 
 
 const CoinList = ({coins}) => {
+
+    
     return (
         <div className='lg:max-w-[1280px] max-w-[90%] w-full mx-auto mt-8'>
             <div>
@@ -24,7 +26,7 @@ const CoinList = ({coins}) => {
                             <CoinItem coins={coin} key={index}/>
                         </Link>
                         
-                    )
+                    ) 
                 })
             }
         </div>
