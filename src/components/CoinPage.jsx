@@ -34,15 +34,15 @@ const CoinPage = () => {
                 <p className='bg-slate-700 text-white font-bold p-2 rounded-lg cursor-pointer flex items-center gap-x-3' onClick={handleNavigate}>BACK <IoArrowBackCircleOutline className='text-2xl'/></p>
             </div>
             {coin.market_data ? (
-                <div className='max-w-[868px] mx-auto mt-16'>
+                <div className='max-w-5xl mx-auto mt-16'>
                     <div className='bg-slate-800 py-6 shadow-lg rounded-lg'>
                         <h1 className='text-3xl font-semibold text-center text-white'>{coin.name}</h1>
                     </div>
                     <div className='bg-slate-800 py-6 shadow-lg rounded-lg mt-12 px-4'>
                         <div>
-                            <span className='text-white bg-[#F3BA2F] rounded-sm border-4 border-[#Fab913] py-1 px-2'>Rank # {coin.market_cap_rank}</span>
+                            <span className='text-white bg-[#3793f5] rounded-sm border-4 border-[#e5e4e1] py-1 px-2 rounded-xl'>Rank # {coin.market_cap_rank}</span>
                         </div>
-                        <div className='flex items-center justify-between mt-4'>
+                        <div className='flex flex-wrap items-center justify-between mt-4'>
                             <div className='text-white flex items-center justify-center gap-x-4'>
                                 {
                                     coin.image ? (
@@ -138,14 +138,6 @@ const CoinPage = () => {
                                     </div>
                                 </div>  
                             </div>
-                    </div>
-                    <div className='bg-slate-800 py-6 shadow-lg rounded-lg mt-12 px-4'>
-                        <div>
-                            <h3 className='text-white font-semibold text-xl'>About</h3>
-                            {coin.description ? (
-                                <p className='text-gray-300 mt-4'>{coin.description.en}</p>
-                            ) : null}
-                        </div>
                     </div>
                 </div>
             ) : (

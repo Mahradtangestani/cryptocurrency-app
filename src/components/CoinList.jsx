@@ -10,7 +10,7 @@ const CoinList = ({coins}) => {
     return (
         <div className='lg:max-w-[1280px] max-w-[90%] w-full mx-auto mt-8'>
             <div>
-                <div className='text-gray-200 flex items-center justify-between shadow-lg rounded-lg mx-4 my-2 font-bold px-6 py-4 bg-slate-800'>
+                <div className='text-gray-50 flex items-center justify-between shadow-lg rounded-lg mx-4 my-2 font-bold px-6 py-4 bg-slate-600'>
                     <p>#</p>
                     <p>Coin</p>
                     <p>Price</p>
